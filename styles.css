@@ -98,11 +98,6 @@ p {
     font-size: 15px;
 }
 
-.match{
-    color: red;
-    font-size: 12px;
-}
-
 .create-account {
     margin: 50px 0px 100px 60px;
     display: flex;

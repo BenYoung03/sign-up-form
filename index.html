@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="content">
@@ -45,11 +45,11 @@
                     <div>
                         <label for="password">PASSWORD*</label>
                         <input type="password" id="password" name="pass" required>
-                        <div class="match"></div>
                     </div>
                     <div>
                         <label for="confirm-password">CONFIRM PASSWORD*</label>
                         <input type="password" id="confirm-password" name="pass-conf" required>
+                        <div id="match"></div>
                     </div>
                 </div>
                 </div>

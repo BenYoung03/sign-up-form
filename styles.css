@@ -218,5 +218,10 @@ p {
         justify-content: center;
         align-items: center;
     }
+
+    .create-account{
+        margin: 10px 0px 20px 60px;
+        width: 80%;
+    }
     
 }
